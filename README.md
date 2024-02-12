@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project introduces a Python-based image manipulation tool that \"shreds\" images by rearranging their parts either horizontally or vertically. Aimed at beginners and enthusiasts alike, it serves as an engaging way to explore basic image processing concepts. The shredder is designed with simplicity in mind, allowing for easy customization and experimentation.
+This project introduces a Python-based image manipulation tool that "shreds" images by rearranging their parts either horizontally or vertically. Aimed at beginners and enthusiasts alike, it serves as an engaging way to explore basic image processing concepts. The shredder is designed with simplicity in mind, allowing for easy customization and experimentation.
 
 ## Example Output
 
@@ -44,7 +44,7 @@ It's a good practice to create a virtual environment for Python projects to mana
 python3 -m venv venv
 # Then activate it:
 # On Windows:
-venv\\Scripts\\activate
+venv\Scripts\activate
 # On macOS and Linux:
 source venv/bin/activate
 
@@ -60,7 +60,7 @@ To run the image shredder and see it in action, execute:
 
 python image_shredder.py
 
-This will apply the shredding effect to `IMG1.jpg` and display the results.
+This will apply the shredding effect to `IMG1.jpg`, display the results, and save the final image as `IMG2.jpg` in the project directory.
 
 ## Customizing the Effect
 
@@ -79,4 +79,4 @@ This project is released into the public domain. Feel free to use it as you wish
 
 ## Disclaimer
 
-This project is intended for educational purposes only. Experiment with it to learn more about Python programming and image processing." > README.md
+This project is intended for educational purposes only. Experiment with it to learn more about Python programming and image processing.
