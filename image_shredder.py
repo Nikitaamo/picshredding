@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 import urllib.request
+import ssl
 
 # Function to split the image into horizontal strips and stack them alternately
 def split_and_stack_image(image, strip_height):
@@ -46,6 +47,9 @@ def split_and_stack_image_vertically(image, strip_width):
     odd_image = odd_image[:, :min_width]
     stacked_image = np.hstack((even_image, odd_image))
     return stacked_image
+
+# Create an SSL unverified context
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # Download the image
 url = 'https://raw.githubusercontent.com/Nikitaamo/picshredding/main/IMG1.jpg'
