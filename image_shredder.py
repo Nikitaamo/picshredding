@@ -81,4 +81,7 @@ plt.axis('off')
 plt.subplots_adjust(wspace=-1, hspace=0)
 plt.tight_layout()
 
+# Save the displayed image before showing it
+plt.savefig('IMG2.jpg', bbox_inches='tight')
+
 plt.show()
