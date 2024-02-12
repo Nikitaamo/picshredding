@@ -10,11 +10,11 @@ Below are examples of an image before and after applying the shredding effect:
 
 ### Before Shredding
 
-![Before Shredding](path/to/before_image.jpg)
+![Before Shredding](/Users/nikitaamosenko/Documents/GitHub/picshredding/IMG1.jpg)
 
 ### After Shredding
 
-![After Shredding](path/to/after_image.jpg)
+![After Shredding](/Users/nikitaamosenko/Documents/GitHub/picshredding/IMG2.jpg)
 
 ## Project Structure
 
